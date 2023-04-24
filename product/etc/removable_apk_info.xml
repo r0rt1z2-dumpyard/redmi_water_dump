@@ -1,0 +1,13 @@
+<string-array name="removable_apk_list">
+    <item>com.android.calendar.go</item>
+    <item>com.miui.android.fashiongallery</item>
+    <item>com.miui.calculator.go</item>
+    <item>com.xiaomi.midrop</item>
+</string-array>
+
+<string-array name="removable_apk_path_list">
+    <item>/product/data-app/MIUICalendarGo/MIUICalendarGo.apk</item>
+    <item>/product/data-app/MiGalleryLockScreenGlobalGO/MiGalleryLockScreenGlobalGO.apk</item>
+    <item>/product/data-app/CalculatorGo/CalculatorGo.apk</item>
+    <item>/product/data-app/MIDropGo/MIDropGo.apk</item>
+</string-array>
