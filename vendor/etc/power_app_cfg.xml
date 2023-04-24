@@ -1,0 +1,1320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The source code provided herein is for optimizing power and performance of gaming software
+and certain applications (e.g. Sina Weibo, QQ) only and should not be used and/or included in
+any software that is unrelated to enhancing end-user experience. -->
+<WHITELIST>
+    <Package name="cn.wsds.gamemaster">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="2"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.sgame">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_POWERHAL_WHITELIST_APP_LAUNCH_TIME_COLD" param1="25000"></data>
+                <data cmd="PERF_RES_FPS_FBT_FLOOR_BOUND" param1="1"></data>
+                <data cmd="PERF_RES_FPS_FBT_KMIN" param1="10"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>				
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+            </FPS>
+        </Activity>
+
+    </Package>
+    <Package name="com.netease.hyxd">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="8"></data>
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.ak">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.ak.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.cf">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.cldts">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.netease.zjz">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.clfz">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.pubgmhd">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+                <data cmd="PERF_RES_NET_NETD_BOOST_UID" param1="1"></data>
+                <data cmd="PERF_RES_NET_MD_WEAK_SIG_OPT" param1="1"></data>
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>				
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.tencent.tmgp.pubgm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_DRAM_CM_MGR" param1="1"></data>
+            </FPS>
+        </Activity>
+    </Package>
+        <Package name="com.vectorunit.red">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_FPS_FSTB_FPS_LOWER" param1="60"></data>
+                <data cmd="PERF_RES_FPS_FSTB_FPS_UPPER" param1="60"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    <Package name="com.estrongs.android.pop.pro">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_FPS_FBT_BHR_OPP" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.android.incallui">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="10"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.google.android.dialer">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="10"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.studiowildcard.wardrumstudios.ark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.studiowildcard.wardrumstudios.ark.ncr">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.t2ksports.nba2k19and">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.t2ksports.nba2k18and">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.garena.game.kgvntest">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netmarble.penta">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.garena.game.kgth">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.garena.game.kgsam">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.garena.game.kgvn">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.garena.game.kgtw">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.garena.game.kgid">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.ngame.allstar.in">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.miHoYo.bh3.uc">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.hyxd">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.hyxd.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.tmgp.cf">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.tmgp.speedmobileEx">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.tmgp.speedmobile">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.tmgp.sgamece">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.miHoYo.enterprise.NGHSoD">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.miHoYo.bh3.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.tmgp.cod">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.ig">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="11"></data>
+            </FPS>
+        </Activity>
+    </Package>    
+	    <Package name="com.tencent.tmgp.pubgm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="12"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.tmgp.pubgmhdce">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="12"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.lolm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.pubg.krmobile">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.igce">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.onmyoji.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.onmyoji">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.huoshe.mndwdzz.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.h48">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.h48.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.lx12">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.lx12.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.mrzh">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.mrzh.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.epicgames.fortnite">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.dwrg">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.dwrg.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.af">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.mobile.legends">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.dts.freefireth">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.wildspike.wormszone">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.supercell.clashofclans">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.xiaomi.gamecenter">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.yy.hiyo">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.roblox.client">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.kiloo.subwaysurf">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.miniclip.eightballpool">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.outfit7.mytalkingtom2">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.king.candycrushsodasaga">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.ludo.king">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="me.pou.app">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.outfit7.mytalkingtomfriends">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="jp.konami.pesam">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.supercell.clashroyale">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.garena.game.codm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.playrix.homescapes">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="jp.garud.ssimulator">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.moonton.mobilehero">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.supercell.clashofclans">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="jp.konami.pesam">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.garena.game.codm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.onmyoji.mi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netease.onmyoji">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.tmgp.codty">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.gamelion.ck">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.kiloo.subwaysurf">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="13"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.miui.gallery">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="14"></data>
+            </FPS>
+        </Activity>
+	</Package>
+	    <Package name="com.mediatek.camera">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="14"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.android.camera">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="14"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.taobao.taobao">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+        </Package>
+	    <Package name="com.xiaomi.midrop">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.jingdong.app.mall">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.xunmeng.pinduoduo">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.mm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.sina.weibo">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.ss.android.article.lite">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.ss.android.article.news">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.android.browser">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.android.mms">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.mobileqq">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.taobao.idlefish">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.baidu.searchbox">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.baidu.tieba">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.baidu.searchbox.lite">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.xingin.xhs">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.news">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.zhihu.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.quark.browser">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.mtt">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.UCMobile">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.ximalaya.ting.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.qidian.QDReader">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.xs.fm">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.jingyao.easybike">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.xiaomi.vipaccount">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.duokan.reader">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.xiaomi.market">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.sdu.didi.psnger">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.facebook.katana">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.instagram.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.android.qqdownloader">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>	
+	    <Package name="com.amazon.mShop.android.shopping">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.whatsapp">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.android.chrome">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.vivo.easyshare">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.softin.copydata">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.go.browser">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    	    <Package name="com.google.android.apps.searchlite">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    	    <Package name="com.microsoft.emmx">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    	    <Package name="org.mozilla.firefox">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    	    <Package name="com.facebook.orca">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="15"></data>
+            </FPS>
+        </Activity>
+    </Package>        
+	    <Package name="com.ludashi.benchmark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.ludashi.benchmark2">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.antutu.benchmark.bench64">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.antutu.videobench">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.antutu.ABenchMark5">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.antutu.ABenchMark.GL2">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.antutu.tester">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.antutu.ABenchMark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.antutu.benchmark.full">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="org.zwanoo.android.speedtest">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.antutu.ABenchMark.lite">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.antutu.aibenchmark">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.ludashi.aibench">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.glbenchmark.glbenchmark27">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.andromeda.androbench2">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.primatelabs.geekbench">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.primatelabs.geekbench5c">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.primatelabs.geekbench5">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.primatelabs.geekbench4.corporate">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="net.kishonti.gfxbench.gl.v40001.corporate">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="org.benchmark.demo">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.android.gputest">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="android.test.app">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.futuremark.dmandroid.application">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="16"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.baidu.BaiduMap">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="17"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.autonavi.minimap">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="17"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.map">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="17"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tmri.app.main">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="17"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.MobileTicket">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="17"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.sdu.didi.gsui">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="17"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.didi.es.psngr">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="17"></data>
+            </FPS>
+        </Activity>
+    </Package>
+    	    <Package name="com.google.android.apps.maps">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="17"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.miui.video">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="tv.danmaku.bili">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.qiyi.video">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.qiyi.video.pad">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.qqlive">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.tencent.videolite.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.smile.gifmaker">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.ss.android.ugc.aweme.lite">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.ss.android.ugc.live">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.youku.phone">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.kuaishou.nebula">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.ss.android.article.video">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="air.tv.douyu.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.duowan.kiwi">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.duowan.mobile">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="cn.cntv">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.babycloud.hanju">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.hunantv.imgo.activity">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.google.android.youtube">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.smartapps.videodownloaderfortiktok">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.zhiliaoapp.musically">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.snapchat.android">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.netflix.mediaclient">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="18"></data>
+            </FPS>
+        </Activity>
+    </Package>
+            <Package name="com.ss.android.ugc.aweme">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="19"></data>
+            </FPS>
+        </Activity>
+    </Package>
+	    <Package name="com.xiaomi.mihomemanager">
+        <Activity name="Common">
+            <FPS value="Common">
+                <data cmd="PERF_RES_THERMAL_POLICY" param1="19"></data>
+            </FPS>
+        </Activity>
+    </Package>	
+</WHITELIST>
