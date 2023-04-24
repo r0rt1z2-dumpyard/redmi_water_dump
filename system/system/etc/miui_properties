@@ -1,0 +1,12 @@
+ro.miui.region
+ro.miui.cust_variant
+persist.sys.timezone
+ro.product.locale.language
+ro.product.locale.region
+ro.miui.mcc
+ro.miui.mnc
+ro.vendor.miui.region
+ro.vendor.miui.mcc
+ro.vendor.miui.mnc
+ro.vendor.miui.cust_variant
+ro.facebook.partnerid
